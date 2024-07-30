@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from io import BytesIO
+import base64
 
 st.title("Excel to Freee CSV Converter")
 
