@@ -4,7 +4,7 @@ import numpy as np
 from io import BytesIO
 import base64
 
-st.title("Excel to Freee CSV Converter")
+st.title("会計王 to Freee CSV Converter")
 
 # ファイルアップロード
 uploaded_file = st.file_uploader("会計王の仕訳ファイルをアップロード", type=["xls", "xlsx"])
